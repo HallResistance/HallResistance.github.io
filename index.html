@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nature Material - Additive Manufacturing</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Inter', sans-serif;
+    }
+
+    body {
+      background-color: #f5f7fa;
+      color: #1a1a1a;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #0d1117;
+      color: #ffffff;
+      padding: 2rem;
+      text-align: center;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    }
+
+    header .company-name {
+      font-size: 1.2rem;
+      font-weight: 300;
+      margin-bottom: 0.5rem;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      color: #8ab4f8;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+
+    header p {
+      font-size: 1.1rem;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    main {
+      padding: 4rem 2rem;
+      max-width: 1000px;
+      margin: auto;
+      text-align: center;
+    }
+
+    .category {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 2rem;
+      margin-top: 3rem;
+    }
+
+    .card {
+      background-color: #ffffff;
+      border-radius: 16px;
+      padding: 2rem;
+      width: 280px;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      cursor: pointer;
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+    }
+
+    .card h2 {
+      font-size: 1.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .card p {
+      font-size: 0.95rem;
+      color: #444;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="company-name">Nature Material</div>
+    <h1>Futura Powders</h1>
+    <p>We specialize in advanced metal powders for Additive Manufacturing, offering high-purity spherical and non-spherical products tailored for industrial applications.</p>
+  </header>
+
+  <main>
+    <h2>Select Powder Type</h2>
+    <div class="category">
+      <a href="spherical.html" class="card">
+        <h2>Spherical Powders</h2>
+        <p>Ideal for high-performance 3D printing applications requiring uniform flow and packing.</p>
+      </a>
+
+      <a href="nonspherical.html" class="card">
+        <h2>Non-Spherical Powders</h2>
+        <p>Engineered for specialized processes, offering cost-effective and tailored solutions.</p>
+      </a>
+    </div>
+  </main>
+</body>
+</html>
